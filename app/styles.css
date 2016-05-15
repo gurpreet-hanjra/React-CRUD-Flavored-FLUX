@@ -1,0 +1,102 @@
+html {
+	color: darkslategray;
+	background-color: #fffefd;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    margin-bottom: 3em;
+}
+
+.purchased-false {
+	  height: 40px;
+    background-color: red;
+}
+
+.purchased-true {
+	  height: 40px;
+    background-color: green;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+	color: slategray;
+}
+
+h1 {
+	text-decoration: underline;
+	text-decoration-style: wavy;
+}
+
+.list-container {
+	width: 40%;
+	float: left;
+}
+
+.details-container {
+	width: 60%;
+	float: left;
+	padding-left: 50px;
+}
+
+.container {
+	width: 90%!important;
+	max-width: 100%!important;
+}
+
+.user {
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
+.primary-color {
+    color: #ee6e73;
+}
+
+.editable {
+    margin: 5px 10px;
+    background-color: #f5f5f5;
+    padding: 13px!important;;
+}
+
+.hide {
+    display: none;
+}
+
+.ellipsis {
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.review-addItem {
+	background-color: #f5f5f5;
+	padding: 12px;
+    float: left;
+    width: 100%;
+}
+
+hr {
+    border: 1px solid #d0d0d0;
+}
+
+.hr-review-list {
+    border: 0;
+    border-bottom: 6px solid #f5f5f1;
+}
+
+.parent {
+    margin-top: 30px;
+}
+
+.fl-right {
+    float: right;
+}
+
+.mar-bottom-20 {
+    margin-bottom: 20px;
+}
